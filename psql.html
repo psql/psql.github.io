@@ -15,6 +15,7 @@
 		font-style: normal;
 		font-weight: 400;
 		line-height: 130%;
+		font-size: 26px;
 	}
 
 	header {
@@ -44,13 +45,29 @@
 		color: #EC387B;
 	}
 
+	section.interesting p {
+		font-size: 120%;
+		line-height: 180%;
+	}
+	section.interesting h2{
+		color: #fff;
+	}
+
 	section a {
 		color: #E63A7B;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+	}
+
+	section a:hover {
+		/*color: #fff;*/
+		border-bottom: 1px solid #fff;
 	}
 
 /*Structure	*/
 	#wrapper {
-		background-color: rgba(0,0,0,0.6);
+		background-color: rgba(0,0,0,0.7);
+		padding-bottom: 100px;
 	}
 	body {
 		background-color: #412B4E;
@@ -72,20 +89,28 @@
 		width: 600px;
 		padding: 0 10px;
 		margin: 0 auto;
-		font-size: 14px;
 		color: #F77BDE;
+		font-size: 20px;
 	}
 
 	section.work {
 		margin-top: 100px;
 	}
 
+	section.likes {
+		color: #cd99ec;
+	}
 	section + section {
 		margin-top: 100px;
 	}
 
+	section ul {
+		margin: 0;
+		padding: 0;
+	}
 	section ul li {
 		margin-top: 10px;
+		margin-left: 0;
 	}
 
 </style>
@@ -103,19 +128,34 @@
 		<h2>Previously</h2>
 		<ul>
 			<li>Creative Director of <a href="http://mindsnacks.com/">MindSnacks</a>, an educational games company (RIP).</li>
-			<li>Animator, Toy Designer &amp; Generalist at clothing brand <a href="http://johnnycupcakes.com">Johnny Cupcakes</a>.</li>
+			<li>Animator, Toy Designer &amp; Generalist at clothing brand <a href="http://johnnycupcakes.com">Johnny&nbsp;Cupcakes</a>.</li>
 			<li>Before that I was consulting, a lot.</li>
 		</ul>
 		<span></span>
 	</section>
 
-	<section>
+	<section class="interesting">
 		<h2>Interesting things</h2>
-		<p>I started a new music company with my friends Jake &amp; Luke called Keezy. I have a condition / super-power called "Chromosynesthesia", &amp; there's a fun video interview about it. My first ever conference talk about animation &amp; interfaces. Chat toy called Debris. Fun tumblr theme called Stellar. Animated gifs. Some "popular" articles I've written. Podcast about design &amp; nonsense with Charles &amp; Dave. I made Tumblr's mascot. His name is TumblrBot. My infrequently updated body of work. My OkCupid Profile.</p>
+		<p>
+		<a href="http://keezy.co/" style="color: #feee3e">I started a new music company with my friends Jake &amp; Luke called Keezy.</a> 
+		 <a href="http://keezy.co/" style="color: #fe983e">I have a condition / super-power called "Chromosynesthesia", &amp; there's a fun video interview about it.</a>
+
+		 <a href="http://keezy.co/" style="color: #3ea6fe">My first ever conference talk about animation &amp; interfaces.</a>
+
+		 <a href="http://keezy.co/" style="color: #3efe66">Chat toy called Debris.</a>
+		 <a href="http://keezy.co/" style="color: #feb33e">Fun tumblr theme called Stellar.</a>
+		 <a href="http://keezy.co/" style="color: #fe3ea6">Animated gifs.</a>
+		 <a href="http://keezy.co/" style="color: #c5fe3e">Some "popular" articles I've written.</a>
+		 <a href="http://keezy.co/" style="color: #fe473e">Podcast about design &amp; nonsense with Charles &amp; Dave.</a>
+		 <a href="http://keezy.co/" style="color: #7ca9e6">I made Tumblr's mascot. His name is TumblrBot.</a>
+		 <a href="http://keezy.co/" style="color: #e6cc7c">My infrequently updated body of work.</a>
+		 <a href="http://keezy.co/" style="color: #e67ccc">My OkCupid Profile.</a>
+
+		 </p>
 
 	</section>
-	<section>
-		<p>I like drawing, dogs, dinner dates, ducks, and other things that don't start with d (hamburgers, laying around in the park, gin &amp; tonics, nap mode, Adventure Time, fireworks, Berlin, pretending to be the drunkest dancer, slam dunks, blues guitar solos, jokes, bike rides, crayons, canyons, cannons) etc.  </p>
+	<section class="likes">
+		<p>I like drawing, dogs, dinner dates, ducks, and other things that don't start with D (hamburgers, laying around in the park, gin &amp; tonics, nap mode, Adventure Time, fireworks, Berlin, pretending to be the drunkest dancer, slam dunks, blues guitar solos, jokes, bike rides, crayons, canyons, cannons) etc.  </p>
 	</section>
 </div>
 
