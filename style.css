@@ -3,6 +3,7 @@
   html {
   }
 
+
   body {
     font-family: "brandon-grotesque",sans-serif;
     font-style: normal;
@@ -11,6 +12,23 @@
     font-size: 32px;
   }
 
+  .caption {
+    font-size: .8em;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+  }
+
+  .ideas a{
+    color: #baffdf;
+  }
+  .ideas h2 {
+    color: #78ffc1;
+  }
+
+  .portraits h2 {
+    color: #ffffff;
+  }
   a {
     color: #E63A7B;
     text-decoration: none;
