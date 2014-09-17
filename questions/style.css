@@ -1,0 +1,14 @@
+body {
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #201632;
+}
+
+h1 {
+  color:#B29FD4;
+}
