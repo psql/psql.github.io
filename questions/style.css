@@ -29,8 +29,11 @@ h1 {
 }
 
 .question-list a + a {
+  display: block;
+  clear: both;
   margin-top: 50px;
 }
+
 
 a {
   color: #DBD36E;
