@@ -14,8 +14,10 @@
   }
 
   #dude {
+    padding-top: 100px;
     margin: 100px auto;
     display: block;
+    max-width: 800px;
   }
   .caption {
     font-size: .8em;
