@@ -14,7 +14,7 @@
   }
 
   #dude {
-    padding-top: 25px;
+    padding-top: 50px;
     margin: 0 auto;
     display: block;
     width: 100%;
@@ -101,7 +101,7 @@
   header {
     max-width: 700px;
     padding: 0 10px;
-    padding-top: 50px;
+    padding-top: 25px;
     margin: 0 auto;
 
   }
