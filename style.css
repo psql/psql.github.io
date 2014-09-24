@@ -15,7 +15,8 @@
 
   #dude {
     padding-top: 100px;
-    margin: 100px auto;
+    padding-bottom: 100px;
+    margin: 0 auto;
     display: block;
     max-width: 800px;
   }
