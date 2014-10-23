@@ -72,15 +72,11 @@
     color: #be9dd1;
   }
 
-  section.work h2 {
-    color: #EC387B;
-  }
-
   section.interesting p {
     font-size: 120%;
     line-height: 180%;
   }
-  section.interesting h2{
+  section h2{
     color: #fff;
   }
 
