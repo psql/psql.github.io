@@ -156,7 +156,7 @@
 }
 
 #ideas ul li a {
-  font-weight: bold;
+  font-weight: bold !important;
   display:block;
   clear: both;
 }
