@@ -152,7 +152,8 @@
 }
 
 
-#links li {
+#ideas li {
+  padding-bottom: 20px;
 }
 
 #ideas ul li a {
