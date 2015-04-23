@@ -161,3 +161,7 @@
   /*display:block;*/
   clear: both;
 }
+
+#main-links {
+  font-size: 300%;
+}
