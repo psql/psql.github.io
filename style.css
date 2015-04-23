@@ -46,6 +46,7 @@
 
   header {
     color: #00C7EC;
+    margin-bottom: 100px;
   }
 
   header h1 {
@@ -141,7 +142,7 @@
     width: 100%;
     border-radius: 7px;
   }
-  
+
   #elepath {
     font-size: 70%;
   }
