@@ -151,5 +151,12 @@
   color: #5af1a8;
 }
 
+
 #links li {
+}
+
+#ideas ul li a {
+  font-weight: bold;
+  display:block;
+  clear: both;
 }
