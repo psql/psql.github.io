@@ -3,12 +3,16 @@
 
   h1 {
     color: #fff;
+    line-height: 150%;
   }
 
   body a {
     color: #D6CE6C;
   }
 
+  ul li{
+  margin-bottom: 2em;
+}
 
   html {
   }
