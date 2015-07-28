@@ -1,5 +1,15 @@
 
 /*Typography*/
+
+  h1 {
+    color: #fff;
+  }
+
+  body a {
+    color: #D6CE6C;
+  }
+
+
   html {
   }
 
@@ -15,9 +25,7 @@
     color: #B4A1D6;
   }
 
-  body a {
-  color: #D6CE6C;
-}
+
   header, section {
   padding: 50px;
 }
