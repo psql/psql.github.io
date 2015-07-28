@@ -2,6 +2,7 @@
 /*Typography*/
 
   h1 {
+    font-size: 200%;
     color: #fff;
     line-height: 150%;
   }
