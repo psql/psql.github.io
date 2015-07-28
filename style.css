@@ -5,7 +5,7 @@
     font-size: 300%;
     color: #fff;
     line-height: 150%;
-    margin-bottom: 2em;
+    margin-bottom: -1em;
   }
 
   body a {
@@ -19,7 +19,7 @@
 }
 
   ul li{
-  margin-bottom: -30px;
+  margin-bottom: 2em;
 }
 
   html {
