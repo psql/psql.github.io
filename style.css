@@ -8,8 +8,14 @@
   }
 
   body a {
-    color: #D6CE6C;
+    color: #74CAB4;
+    text-decoration: none;
+    border-bottom: 1px solid #DBD36E;
   }
+
+  body a:hover {
+  color: #74CAB4;
+}
 
   ul li{
   margin-bottom: 2em;
