@@ -18,3 +18,6 @@
   body a {
   color: #D6CE6C;
 }
+  header, section {
+  padding: 50px;
+}
