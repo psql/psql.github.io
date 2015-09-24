@@ -47,6 +47,7 @@
 }
 
 small {
-  font-size: 70%;
+  font-size: .5em;
+  line-height: 1em;
   opacity: 0.8;
 }
