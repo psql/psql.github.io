@@ -47,7 +47,7 @@
 }
 
 small {
-  font-size: .5em;
+  font-size: calc(1vw + 4vh + 2vmin);
   line-height: 1em;
-  opacity: 0.8;
+  opacity: 0.6;
 }
