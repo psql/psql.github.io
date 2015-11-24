@@ -38,6 +38,8 @@
     font-size: calc(1vw + 3vh - 0.5vmin);
     letter-spacing: 0.01em;
     background-color: #201632;
+    background-image: url ('https://s3.amazonaws.com/f.cl.ly/items/2b3D0O1K1U091Y1S2j1X/tumblr_nyaxcj8W8R1qa2d04o2_1280.jpg');
+    background-size: cover;
     color: #B4A1D6;
   }
 
