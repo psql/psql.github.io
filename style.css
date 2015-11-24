@@ -27,8 +27,6 @@
   line-height: 150%;
 }
   html {
-    background-image: url ('big-skulls.jpg')!important;
-    background-size: cover;
   }
 
 
@@ -40,7 +38,7 @@
     font-size: calc(1vw + 3vh - 0.5vmin);
     letter-spacing: 0.01em;
     background-color: #201632;
-    background-image: url ('big-skulls.jpg')!important;
+    background: url ('big-skulls.jpg')!important;
     background-size: cover;
     color: #B4A1D6;
   }
