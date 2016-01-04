@@ -51,5 +51,5 @@
 small {
   display: block;
   padding-top: 50px;
-  font-size: 55%;
+  font-size: calc(.5vw + 2vh + 1vmin);
 }
