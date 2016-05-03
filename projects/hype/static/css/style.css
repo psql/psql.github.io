@@ -30,12 +30,12 @@ table {
 
 @font-face {
   font-family: "Circular";
-  src: url("projects/hype/static/fonts/CircularStd-Book.otf");
+  src: url("/projects/hype/static/fonts/CircularStd-Book.otf");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Circular";
-  src: url("projects/hype/static/fonts/CircularStd-Bold.otf");
+  src: url("/projects/hype/static/fonts/CircularStd-Bold.otf");
   font-weight: bold;
   font-style: normal; }
 html {
