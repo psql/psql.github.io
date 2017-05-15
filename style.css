@@ -1,55 +1,24 @@
-
-/*Typography*/
-
-  h1 {
-    font-size: calc(4.5vw + 4vh + 2vmin);
-    color: #fff;
-    line-height: 150%;
-    margin-bottom: .25em;
-  }
-
-  body a {
-    color: #DBD36E;
-    text-decoration: none;
-    border-bottom: 1px solid #73C9B3;
-  }
-
-  body a:hover {
-  color: #ffffff;
+html {
+  background-color: black;
+  color: white;
 }
 
-  ul li{
-  margin-bottom: 2em;
+body  {
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+.wrapper {
+  /*width: 100%;*/
+  padding: 40px;
+  margin: 0 auto;
 }
 
-  header span {
-  font-size: 130%;
-  line-height: 150%;
+header {
+  margin-bottom: 100px;
 }
-  html {
-  }
-
-
-  body {
-    background-image: url("big-skulls.jpg");
-    background-size: cover;
-    font-family: "brandon-grotesque",sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    font-size: calc(1vw + 3vh - 0.5vmin);
-    letter-spacing: 0.01em;
-    background-color: #201632;
-    color: #B4A1D6;
-  }
-
-
-  header, section {
-  padding: 5%;
-}
-
-small {
-  display: block;
-  padding-top: 50px;
-  font-size: calc(.5vw + 2vh + 1vmin);
+.name {
+  width: 100%;
 }
