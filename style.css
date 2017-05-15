@@ -17,7 +17,7 @@ body a {
   background-color: transparent;
   padding: 3px 10px;
   /*border-bottom: 1px dotted #FFB85A;*/s
-  transition: all 0.5s ease;
+  transition: all 0.5 s ease;
 }
 
 body a:hover {
@@ -29,12 +29,20 @@ body a:hover {
   transition: all 0.5s ease;
 }
 
-ul li{
-margin-bottom: 2em;
+li {
+  margin-bottom: 2em;
+  margin-left: -20px;
+  text-indent: 0;
+}
+
+ul {
+  margin-bottom: 100px;
+  margin-left: 0;
+  text-indent: 0;
 }
 .wrapper {
   /*width: 100%;*/
-  padding: 40px;
+  padding: 40px 150px;
   margin: 0 auto;
 }
 
@@ -43,4 +51,43 @@ header {
 }
 .name {
   width: 100%;
+}
+
+.main-links {
+  clear: both;
+  /*display: block;*/
+  width: 100%;
+  font-size: 3.5vw;
+  margin-left: -20px;
+  margin-bottom: 100px;
+}
+
+.main-links a {
+  padding: 6px 15px;
+}
+section {
+  float: left;
+  /*border: 1px solid red;*/
+  margin-right: 50px;
+}
+
+.para {
+  width: 100%;
+  font-size: 2em;
+  line-height: 1.8em;
+  margin-bottom: 100px;
+}
+
+.para a {
+  padding: 0;
+}
+
+.para a:hover {
+  text-decoration: underline;
+  color: #EB360C;
+  background-color: black;
+  /*display: none;*/
+}
+h2 {
+  font-size: 200%;
 }
