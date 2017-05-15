@@ -17,6 +17,18 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
   <meta charset="utf-8">
 	<meta name="keywords" content="pasquale, psql, animation, design" id="keywords">
   <link href="style.css" media="screen" rel="stylesheet" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    var animate = function() {
+      $(".slide-inner").animate({left: 1000}, 1000, 'linear', function() {
+        $(this).css('left', 1);
+        animate();
+      });
+    }
+  animate();
+  </script>
+
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/dph8cwx.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -29,75 +41,84 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
 
 <body>
 
-	<header>
-		<h1>PASQUALE D'SILVA</h1>
-    <span>Hello internet surfer! I'm an animator &amp; software designer in New York City. I'm half of <a href="http://thinko.co">Thinko</a>. I'm working on a video game called <a href="http://twitter.com/okdracula">OK, Dracula</a>. Sometimes I make <a href="http://soundcloud.com/pasquale">music</a>. I founded <a href="http://keezy.com/">Keezy</a>. You can see older projects of mine <a href="http://psql.carbonmade.com">here</a>.</span>
-    <br />
-  </header>
 
-  <section id="main-links">
-    <a href="http://twitter.com/pasql">tweets</a> /
-    <a href="http://psql.tumblr.com">tumblog</a> /
-    <a href="mailto:website@pasquale.cool">email</a>
-  </section>
-  
-  <!-- ideas -->
-  <section class="ideas" id="ideas" name ="ideas">
-    <h2>Ideas</h2>
-    <ul>
-      <li><a href="https://vimeo.com/147643797">Talk: Spatial Interfaces (Push Conf, Munich, 2015)</a>
-      </li>
 
-      <li>
-        <a href="https://www.youtube.com/watch?v=TMe0WnkF1Lc&feature=c4-overview&list=UURx1y52pfeMwbuer9Vh2u-A">Talk: Designing with Animation (Web Directions, Sydney, 2013)</a>
-      </li>
+  <div class="wrapper">
 
-      <li>
-        <a href="https://vimeo.com/101885482">Layered Animation Theory</a>
-      </li>
+    <header>
+      <img class ="darmite" src="/gifs/darmite-run.gif" />
+      <img class ="name" src="name.svg" />
+    </header>
 
-      <li>
-        <a href="https://medium.com/@pasql/spatial-interfaces-886bccc5d1e9">Spatial Interfaces</a>
-      </li>
-      
-      <li>
-        <a href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3">Transitional Interfaces</a>
-      </li>
+    <section class="main-links">
+      <a href="http://psql.carbonmade.com">projects</a> /
+      <a href="http://twitter.com/pasql">tweets</a> /
+      <a href="http://psql.tumblr.com">blog</a> /
+      <a href="http://soundcloud.com/pasquale">music</a> /
+      <a href="mailto:website@pasquale.cool">email</a>
+    </section>
 
-      <li>
-        <a href="https://medium.com/@pasql/the-state-of-interaction-design-tools-f755c6515368">The State of Interaction Design Tools</a>
-      </li>
+    <section class="para">
+    <p>
+    Hey! I cofounded <a href="http://thinko.com">Thinko</a> & <a href="http://keezy.com">Keezy</a>. I'm an Animator &amp; Software Designer based in Brooklyn, New York.  Born &amp; raised in Australia. Lived in San Francisco for a bit. Don't move there.
+    </p>
+    <p class="previous">Previously at: <a href="http://elepath.com"> Elepath</a>, <a href="http://mindnsacks.com">MindSnacks</a> &amp; <a href="http://johnnycupcakes.com">Johnny Cupcakes</a>.</p>
+    </section>
 
-      <li>
-        <a href="https://medium.com/p/ad5c2e4149d0">We should clone Game Interaction Design tools</a>
-      </li>
+    <!-- ideas -->
+    <section class="ideas" id="ideas">
+      <h2>Ideas</h2>
+      <ul>
+        <li><a href="https://vimeo.com/147643797">Video: Multidimensional Interfaces (Push Conf, Munich, 2015)</a>
+        </li>
 
-      <li>
-         <a href="https://www.dropbox.com/sh/bgok1h4p66ntlbu/AACCbp-_OeipvVRpLLRRCHCPa?dl=0">Motion References</a>
-      </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=TMe0WnkF1Lc&feature=c4-overview&list=UURx1y52pfeMwbuer9Vh2u-A">Video: Designing with Animation (Web Directions, Sydney, 2013)</a>
+        </li>
 
-      <li>
-        <a href="https://github.com/psql/saturn-colors">Pleasing colors for your Terminal</a>
-      </li>
-  </section>
+        <li>
+          <a href="https://vimeo.com/101885482">Video: Animation Theory - Layered Animation</a>
+        </li>
 
-  <!-- interviews -->
-  <section>
-	 <h2>Interviews</h2>
-    		<ul>
-		        <li><a href="http://www.fastcompany.com/3028742/whos-next/whos-next-keezy-video">Fast Company: Color Synesthesia, my weird superpower?</a></li>
-            
-		        <li><a href="http://www.curiousclub.co/pasquale-dsilva/">Curious Club</a></li>
-            
-		        <li><a href="https://www.flinto.com/profiles/elepath">Flinto: Elepath isn’t afraid to do things differently</a></li>
-            
-		        <li><a href="http://zine.electricobjects.com/interviews/pasquale-dsilva">Electric Objects Zine</a></li>
-            
-		        <li><a href="http://blog.sketchapp.tv/post/106494360670/interview-with-pasquale-dsilva-about-his-startup">SketchappTV</a></li>
-		    </ul>
-  	</section>
+        <li>
+          <a href="https://medium.com/@pasql/spatial-interfaces-886bccc5d1e9">Spatial Interfaces</a>
+        </li>
+        <li>
+          <a href="https://medium.com/@pasql/transitional-interfaces-926eb80d64e3">Transitional Interfaces</a>
+        </li>
 
-</div>
+        <li>
+          <a href="https://medium.com/@pasql/the-state-of-interaction-design-tools-f755c6515368">The State of Interaction Design Tools</a>
+        </li>
+
+        <li>
+          <a href="https://medium.com/p/ad5c2e4149d0">We should clone Game Interaction Design tools</a>
+        </li>
+
+        <li>
+          <a href="http://psql.me/motion-references">Motion References</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/psql/saturn-colors">Pleasing colors for your Terminal</a>
+        </li>
+    </section>
+
+    <!-- Interviews -->
+    <section>
+  	 <h2>Interviews</h2>
+      		<ul>
+  		 <li><a href="http://www.fastcompany.com/3028742/whos-next/whos-next-keezy-video">Fast Company: Color Synesthesia, my weird superpower</a></li>
+  		 <li><a href="http://www.curiousclub.co/pasquale-dsilva/">Curious Club</a></li>
+  		 <li><a href="https://www.flinto.com/profiles/elepath">Flinto: Elepath isn’t afraid
+  to do things differently</a></li>
+  		<li><a href="http://zine.electricobjects.com/interviews/pasquale-dsilva">Electric Objects Zine</a></li>
+  		 <li><a href="http://blog.sketchapp.tv/post/106494360670/interview-with-pasquale-dsilva-about-his-startup">SketchappTV</a></a></li>
+  		 </ul>
+    	</section>
+
+    </ul>
+  </div>
 
 
 </body>
