@@ -3,6 +3,9 @@ html {
   color: white;
 }
 
+.darmite {
+  position: relative;
+}
 body  {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
@@ -17,7 +20,7 @@ body a {
   background-color: transparent;
   padding: 3px 10px;
   /*border-bottom: 1px dotted #FFB85A;*/s
-  transition: all 0.5 s ease;
+  transition: all 0.3s ease;
   display: inline-block;
 }
 
@@ -59,12 +62,19 @@ header {
   /*display: block;*/
   width: 100%;
   font-size: 3.5vw;
-  margin-left: -20px;
   margin-bottom: 5vw;
+  background-color: none;
 }
 
 .main-links a {
-  padding: 6px 15px;
+  /*padding: 6px 15px;*/
+  padding: 0;
+}
+
+.main-links a:hover {
+  color: #fff;
+  padding: 0;
+  background-color: transparent;
 }
 section {
   float: left;
