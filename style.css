@@ -18,6 +18,7 @@ body a {
   padding: 3px 10px;
   /*border-bottom: 1px dotted #FFB85A;*/s
   transition: all 0.5 s ease;
+  display: inline-block;
 }
 
 body a:hover {
@@ -42,7 +43,7 @@ ul {
 }
 .wrapper {
   /*width: 100%;*/
-  padding: 40px 150px;
+  padding: 40px 5vw;
   margin: 0 auto;
 }
 
@@ -59,7 +60,7 @@ header {
   width: 100%;
   font-size: 3.5vw;
   margin-left: -20px;
-  margin-bottom: 100px;
+  margin-bottom: 5vw;
 }
 
 .main-links a {
@@ -71,11 +72,15 @@ section {
   margin-right: 50px;
 }
 
+section ul {
+  font-size: 1.2em;
+}
+
 .para {
   width: 100%;
   font-size: 2em;
   line-height: 1.8em;
-  margin-bottom: 100px;
+  margin-bottom: 5vw;
 }
 
 .para a {
@@ -87,6 +92,10 @@ section {
   color: #EB360C;
   background-color: black;
   /*display: none;*/
+}
+
+.para .previous {
+  font-size: .6em;
 }
 h2 {
   font-size: 200%;
