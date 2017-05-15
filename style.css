@@ -63,6 +63,7 @@ header {
   /*display: block;*/
   width: 100%;
   font-size: 3.5em;
+  line-height: 1.6em;
   margin-bottom: 5vw;
   background-color: none;
 }
