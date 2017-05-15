@@ -5,6 +5,7 @@ html {
 
 .darmite {
   position: relative;
+  /*left: 1000px;*/
 }
 body  {
   font-family: "brandon-grotesque",sans-serif;
@@ -61,7 +62,7 @@ header {
   clear: both;
   /*display: block;*/
   width: 100%;
-  font-size: 3.5vw;
+  font-size: 3.5em;
   margin-bottom: 5vw;
   background-color: none;
 }
