@@ -10,6 +10,28 @@ body  {
   line-height: 130%;
   letter-spacing: 0.01em;
 }
+
+body a {
+  color: #EB360C;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 3px 10px;
+  /*border-bottom: 1px dotted #FFB85A;*/s
+  transition: all 0.5s ease;
+}
+
+body a:hover {
+  color: black;
+  /*padding: 20px;*/
+  background-color: #EB360C;
+  border-radius: 100px;
+  border-bottom: none;
+  transition: all 0.5s ease;
+}
+
+ul li{
+margin-bottom: 2em;
+}
 .wrapper {
   /*width: 100%;*/
   padding: 40px;
