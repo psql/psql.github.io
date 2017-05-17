@@ -5,7 +5,7 @@ html {
 }
 
 .darmite {
-  position:absolute;
+  position: relative;
   left: 1500px;
 }
 body  {
