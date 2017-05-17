@@ -5,7 +5,7 @@ html {
 }
 
 .darmite {
-  position;
+  position:absolute;
   left: 1500px;
 }
 body  {
@@ -53,6 +53,7 @@ ul {
 }
 
 header {
+  margin-top: 250px;
   margin-bottom: 100px;
 }
 .name {
