@@ -19,23 +19,37 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
   <link href="style.css" media="screen" rel="stylesheet" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- <script type="text/javascript">
+  <script src="anime.min.js"></script>
+  <script type="text/javascript">
 
-  $( document ).ready(function() {
+  $(document).ready(function() {
+    // var cssSelector = anime({
+    //   targets: 'header .darmite',
+    //   left: 10,
+    //   easing: 'easeInOutSine',
+    //   duration: 3000,
+    //   direction: 'alternate',
+    //   loop: true,
+    // });
 
-    var animate = function() {
-      $(".darmite").animate({right: 1000}, 3000, 'linear', function() {
-        $(this).css('left', 100);
-        animate();
-      });
-    }
-    animate();
+    var keyframes = anime ({
+      targets: 'header .darmite',
+      scaleX: [
+        { value: -1, delay: 3000, easing: 'easeInOutSine'},
+        { value: 1, delay: 3000, easing: 'easeInOutSine' },
+      ],
+      left: [
+        {value: 0,  duration: 3000, easing: 'easeInOutSine'},
+        {value: 1500,  duration: 3000, easing: 'easeInOutSine'}
+      ],
+      loop: true
+    });
+
+
   });
-  </script> -->
+  </script>
 
 	<!-- Typekit -->
-	<script type="text/javascript" src="//use.typekit.net/dph8cwx.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=640">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
