@@ -7,7 +7,7 @@ html {
 .darmite {
   left: 1500px;
   z-index: -1000;
-  position: relative;
+  position: fixed;
   top: 0;
 }
 body  {
@@ -55,6 +55,7 @@ ul {
 }
 
 header {
+  margin-top: 250px;
   margin-bottom: 100px;
 }
 .name {
