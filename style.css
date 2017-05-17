@@ -1,10 +1,11 @@
 html {
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
 .darmite {
-  position: relative;
+  position;
   left: 1500px;
 }
 body  {
