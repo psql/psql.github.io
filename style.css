@@ -5,8 +5,10 @@ html {
 }
 
 .darmite {
-  position: relative;
   left: 1500px;
+  z-index: -1000;
+  position: relative;
+  top: 0;
 }
 body  {
   font-family: "brandon-grotesque",sans-serif;
@@ -53,7 +55,6 @@ ul {
 }
 
 header {
-  margin-top: 250px;
   margin-bottom: 100px;
 }
 .name {
