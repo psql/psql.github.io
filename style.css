@@ -92,6 +92,10 @@ section ul {
   font-size: 1.2em;
 }
 
+section ul li {
+  line-height: 1.6em;
+}
+
 .para {
   width: 100%;
   font-size: 2em;
