@@ -3313,7 +3313,8 @@ div#footer_msgs {
   background-color: #201632;
 }
 
-.column_border {
+
+ div.msg_inline_attachment_column.column_border {
   background-color: rgba(255,255,255,0.2);
 }
 
