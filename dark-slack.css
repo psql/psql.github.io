@@ -3286,7 +3286,7 @@ div#footer_msgs {
 
 }
 
-#channel-list > li.channel:hover {
+#channel-list > li.channel:hover, #channel-list > li.group.cursor_pointer:hover {
   background-color: #333;
 }
 
