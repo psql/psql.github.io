@@ -3277,6 +3277,7 @@ body { background: #201632; color: #B4A1D6; }
 
 #team_menu {
   background-color: #000000;
+  border-bottom-width: 1px;
 }
 div#footer_msgs {
   background-color: #231533;
