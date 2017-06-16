@@ -3336,6 +3336,11 @@ div#footer_msgs {
 
 #col_channels { background-color: #180F26; color: #e6e6e6; }
 
+#starred-list > li.group.active, #starred-list > li.active {
+  color: #31A7C9 !important;
+}
+
+
 .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #180F26; border-radius: 0; }
 
 #channel-list, .channel, #channel-list > li.channel > a {
