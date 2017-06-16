@@ -3265,10 +3265,10 @@ body > .section.main { background: #222; box-shadow: none; }
 
 /*Added by psql*/
 
-.client_header {
+#client-ui .client_header {
   background-color: #231533 !important;
 }
 
-.client_channels_list_container {
+#client-ui .client_channels_list_container {
   border: 0 !important;
 }
