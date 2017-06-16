@@ -54,7 +54,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_handle_inner { background: #545454; border: 3px solid #222; }
 
-#col_channels { background-color: #000000; color: #e6e6e6; }
+
 
 #col_channels_collapse_view { background: #363636; }
 
@@ -70,7 +70,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li .channel_name:hover, .channels_list_holder ul li .group_name:hover, .channels_list_holder ul li .im_name:hover, .channels_list_holder ul li .mpim_name:hover, .channels_list_holder ul li > a:hover { background: transparent !important; border-radius: 0;}
 
-.channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background, .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #000000; border-radius: 0; }
+.channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background,
 
 .primary_action {
   background-color: black !important;
@@ -3275,10 +3275,7 @@ body { background: #201632; color: #B4A1D6; }
   border: 0 !important;
 }
 
-#team_menu {
-  background-color: #000000;
-  border-bottom-width: 1px;
-}
+
 div#footer_msgs {
   background-color: #231533;
 }
@@ -3322,7 +3319,6 @@ div#footer_msgs {
   background-color: #201632;
 }
 
-
 ::selection {
   background-color: #2F1F4A;
 }
@@ -3330,3 +3326,14 @@ div#footer_msgs {
 #primary_file_button {
   background-color: #31A7C9;
 }
+
+
+/*Sidebar*/
+#team_menu {
+  background-color: #180F26;
+  border-bottom-width: 1px;
+}
+
+#col_channels { background-color: #180F26; color: #e6e6e6; }
+
+.channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #180F26; border-radius: 0; }
