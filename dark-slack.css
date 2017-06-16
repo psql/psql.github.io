@@ -3302,6 +3302,10 @@ div#footer_msgs {
   background-color: #2E213E;
 }
 
-.channel_title_info {
+.channel_title_info, .channel_actions_container {
   background-color: transparent;
+}
+
+.column_border {
+  background-color: rgba(255,255,255,0.2);
 }
