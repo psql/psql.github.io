@@ -3301,3 +3301,7 @@ div#footer_msgs {
 .day_divider_label {
   background-color: #2E213E;
 }
+
+.channel_title_info {
+  background-color: transparent;
+}
