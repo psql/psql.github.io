@@ -3319,3 +3319,8 @@ div#footer_msgs {
 #client_body:not(.onboarding)::before {
   background-color: #201632;
 }
+
+
+::selection {
+  background-color: #2F1F4A;
+}
