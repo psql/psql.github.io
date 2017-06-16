@@ -3285,7 +3285,7 @@ div#footer_msgs {
 }
 
 #channel_name_container.channel_name_container {
-  background-color: #231533;
+  background-color: #000000;
 
 }
 
@@ -3295,4 +3295,9 @@ div#footer_msgs {
 
 #client-ui > div.client_container > div.client_main_container {
   background-color: #231533;
+}
+
+
+.day_divider_label {
+  background-color: #2E213E;
 }
