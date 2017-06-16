@@ -3273,6 +3273,9 @@ body > .section.main { background: #222; box-shadow: none; }
   border: 0 !important;
 }
 
+#team_menu {
+  background-color: #231533;
+}
 div#footer_msgs {
   background-color: #231533;
 }
