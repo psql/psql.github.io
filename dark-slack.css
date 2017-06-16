@@ -3284,10 +3284,12 @@ div#footer_msgs {
   background-color: #231533 !important;
   border-color: #2E203D !important;
 }
-
+#channel_name_container > div {
+  background-color: transparent;  
+}
 
 #channel_name_container.channel_name_container {
-  background-color: #000000;
+  background-color: transparent;
 
 }
 
