@@ -824,7 +824,7 @@ ts-message .recap_highlight a { color: #e6e6e6; }
 
 ts-message.delete_mode, ts-message.multi_delete_mode { background: rgba(191, 54, 12, 0.75); }
 
-ts-message.automated .message_body { color: rgba(230, 230, 230, 0.8); }
+ts-message.automated .message_body { color: #B4A1D6; }
 
 ts-message .action_hover_container { border: 1px solid #363636; }
 
