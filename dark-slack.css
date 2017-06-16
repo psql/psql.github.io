@@ -54,7 +54,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_handle_inner { background: #545454; border: 3px solid #222; }
 
-#col_channels { background-color: #363636; color: #e6e6e6; }
+#col_channels { background-color: #000000; color: #e6e6e6; }
 
 #col_channels_collapse_view { background: #363636; }
 
