@@ -3320,7 +3320,7 @@ div#footer_msgs {
 }
 
 #primary_file_button:hover {
-  background-color: #FAC95E;
+  background-color: #4E435C;
 }
 
 
@@ -3350,4 +3350,8 @@ div#footer_msgs {
 .primary_action:hover {
   background-color: #3F3648 !important;
   color: #fff !important;
+}
+
+#starred-list > li.member.away.active.is_starred.cursor_pointer > a > div {
+  background-color: #7350B6;
 }
