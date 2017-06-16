@@ -3276,3 +3276,7 @@ body > .section.main { background: #222; box-shadow: none; }
 div#footer_msgs {
   background-color: #231533;
 }
+
+#msg_input {
+  background-color: #231533;
+}
