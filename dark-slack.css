@@ -3326,3 +3326,7 @@ div#footer_msgs {
 ::selection {
   background-color: #2F1F4A;
 }
+
+#primary_file_button {
+  background-color: #31A7C9;
+}
