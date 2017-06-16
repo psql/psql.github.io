@@ -72,15 +72,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background,
 
-.primary_action {
-  background-color: black !important;
-  border-radius: 0 !important;
-}
 
-.primary_action:hover {
-  background-color: #222 !important;
-  color: #fff !important;
-}
 .channels_list_holder ul li.mention a { color: #e6e6e6; }
 
 .channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: whitesmoke !important; }
@@ -3337,3 +3329,17 @@ div#footer_msgs {
 #col_channels { background-color: #180F26; color: #e6e6e6; }
 
 .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #180F26; border-radius: 0; }
+
+#channel-list > li.channel > a {
+  background-color: #180F26;
+}
+
+.primary_action {
+  background-color: #180F26 !important;
+  border-radius: 0 !important;
+}
+
+.primary_action:hover {
+  background-color: #3F3648 !important;
+  color: #fff !important;
+}
