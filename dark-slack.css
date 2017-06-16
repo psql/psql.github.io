@@ -3268,3 +3268,7 @@ body > .section.main { background: #222; box-shadow: none; }
 .client_header {
   background-color: #231533 !important;
 }
+
+.client_channels_list_container {
+  border: 0 !important;
+}
