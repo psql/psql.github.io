@@ -663,7 +663,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #menu_items_scroller::-webkit-scrollbar-track { background: #222 !important; }
 
-.channel_header { background: #222; }
+.channel_header { background: #201632; }
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
@@ -3271,4 +3271,8 @@ body > .section.main { background: #222; box-shadow: none; }
 
 #client-ui .client_channels_list_container {
   border: 0 !important;
+}
+
+div#footer_msgs {
+  background-color: #231533;
 }
