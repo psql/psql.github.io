@@ -3330,7 +3330,7 @@ div#footer_msgs {
 
 .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #180F26; border-radius: 0; }
 
-#channel-list > li.channel > a {
+#channel-list, .channel,#channel-list > li.channel > a {
   background-color: #180F26;
 }
 
