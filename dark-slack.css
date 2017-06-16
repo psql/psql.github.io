@@ -1,10 +1,10 @@
-body { background: #201632; color: #B4A1D6; }
+
 
 a { color: #74CAB4; }
 
 a:link, a:visited { color: #74CAB4; }
 
-a:hover, a:active, a:focus { color: #fff; }
+a:hover, a:active, a:focus { color: #FFDD6D; }
 
 hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
 
@@ -3264,6 +3264,8 @@ body > .section.main { background: #222; box-shadow: none; }
 
 
 /*Added by psql*/
+
+body { background: #201632; color: #B4A1D6; }
 
 #client-ui .client_header {
   background-color: #231533 !important;
