@@ -32,7 +32,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .alert-info h4 { color: #e6e6e6; }
 
-::-webkit-scrollbar-track { background: #363636 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #363636 !important; }
+::-webkit-scrollbar-track { background: #222222 !important; border-left-color: #222222 !important; border-right-color: #363636 !important; color: #363636 !important; }
 
 ::-webkit-scrollbar-thumb { background: #545454 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #222 !important; }
 
@@ -40,9 +40,9 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .supports_custom_scrollbar #messages_container::after { background: none !important; }
 
-.monkey_scroll_bar { background: #424242; }
+.monkey_scroll_bar { background: #333333; }
 
-.monkey_scroll_handle_inner { background: #545454; border: 1px solid #828282; }
+.monkey_scroll_handle_inner { background: #333333; border: 1px solid #828282; }
 
 .monkey_scroll_bar_native_scrollbar_shim { background: transparent; }
 
