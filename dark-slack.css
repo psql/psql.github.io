@@ -3316,9 +3316,12 @@ div#footer_msgs {
 }
 
 #primary_file_button {
-  background-color: #31A7C9;
+  background-color: #74CAB4;
 }
 
+#primary_file_button:hover {
+  background-color: #FAC95E;
+}
 
 /*Sidebar*/
 #team_menu {
@@ -3330,7 +3333,7 @@ div#footer_msgs {
 
 .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #180F26; border-radius: 0; }
 
-#channel-list, .channel,#channel-list > li.channel > a {
+#channel-list, .channel, #channel-list > li.channel > a {
   background-color: #180F26;
 }
 
