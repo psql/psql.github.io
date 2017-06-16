@@ -3285,7 +3285,7 @@ div#footer_msgs {
   border-color: #2E203D !important;
 }
 #channel_name_container > div {
-  background-color: transparent;  
+  background-color: transparent;
 }
 
 #channel_name_container.channel_name_container {
@@ -3312,4 +3312,8 @@ div#footer_msgs {
 
 .column_border {
   background-color: rgba(255,255,255,0.2);
+}
+
+#client_body:not(.onboarding)::before {
+  background-color: transparent;
 }
