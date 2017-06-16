@@ -3323,6 +3323,11 @@ div#footer_msgs {
   background-color: #FAC95E;
 }
 
+
+#whats_new_toggle {
+  background-color: transparent;
+}
+
 /*Sidebar*/
 #team_menu {
   background-color: #180F26;
