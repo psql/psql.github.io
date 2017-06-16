@@ -3259,6 +3259,9 @@ body > .section.main { background: #222; box-shadow: none; }
 
 body { background: #201632; color: #B4A1D6; }
 
+div.message_content > span.message_body {
+  color: #B4A1D6;
+}
 #client-ui .client_header {
   background-color: #231533 !important;
 }
