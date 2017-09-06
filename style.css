@@ -5,14 +5,14 @@ html {
 }
 
 .darmite {
-  left: 1500px;
+  left: 3000px;
   z-index: -1000;
   position: fixed;
   top: 0;
 }
 
 .dracula {
-  left: 1500px;
+  left: 3000px;
   z-index: -1000;
   position: fixed;
   top: 0;
