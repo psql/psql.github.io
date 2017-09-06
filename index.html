@@ -23,17 +23,22 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
   <script type="text/javascript">
 
   $(document).ready(function() {
-    // var cssSelector = anime({
-    //   targets: 'header .darmite',
-    //   left: 10,
-    //   easing: 'easeInOutSine',
-    //   duration: 3000,
-    //   direction: 'alternate',
-    //   loop: true,
-    // });
 
     var keyframes = anime ({
       targets: '.darmite',
+      scaleX: [
+        { value: -1, delay: 4000, easing: 'easeInOutSine'},
+        { value: 1, delay: 4000, easing: 'easeInOutSine' },
+      ],
+      left: [
+        {value: 0,  duration: 4000, easing: 'easeInOutSine'},
+        {value: 2000,  duration: 4000, easing: 'easeInOutSine'}
+      ],
+      loop: true
+    });
+
+    var keyframes = anime ({
+      targets: '.dracula',
       scaleX: [
         { value: -1, delay: 3000, easing: 'easeInOutSine'},
         { value: 1, delay: 3000, easing: 'easeInOutSine' },
@@ -44,7 +49,6 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
       ],
       loop: true
     });
-
 
   });
   </script>
@@ -64,6 +68,7 @@ $$ |      $$ |  $$ |\$$$$$$  |\$$$$$$ / \$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$$\ 
 
 
   <img class ="darmite" src="/gifs/darmite-run.gif" />
+  <img class ="dracula" src="/gifs/dracula.gif" />
   <div class="wrapper">
 
     <header>
