@@ -27,7 +27,7 @@ body  {
 }
 
 body a {
-  color: #EB360C;
+  color: #7F80FF;
   text-decoration: none;
   background-color: transparent;
   padding: 3px 10px;
@@ -39,7 +39,7 @@ body a {
 body a:hover {
   color: black;
   /*padding: 20px;*/
-  background-color: #EB360C;
+  background-color: #ffce08;
   border-bottom: none;
   transition: all 0.5s ease;
 }
@@ -116,7 +116,7 @@ section ul li {
 
 .para a:hover {
   text-decoration: underline;
-  color: #EB360C;
+  color: #ffce08;
   background-color: black;
   /*display: none;*/
 }
