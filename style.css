@@ -75,6 +75,7 @@ header {
   clear: both;
   /*display: block;*/
   width: 100%;
+  max-width: 960px;
   font-size: 3em;
   line-height: 1.6em;
   margin-bottom: 5vw;
