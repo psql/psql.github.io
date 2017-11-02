@@ -91,7 +91,7 @@ section p {
 .links ul {
     line-height: 200%;
     padding-left: 0;
-    /*list-style: disc;*/
+    list-style: disc;
     /*display: block;*/
     color: white;
 }
