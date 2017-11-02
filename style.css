@@ -2,9 +2,12 @@ html {
   background-color: #EDEDED;
   background-color: black;
   /*background-image: url("paper.gif");*/
-  color: #9f9f9e;
+  color: #95a9e9;
 }
-
+.hello {
+    font-size: 150%;
+    line-height: 170%;
+}
 .darmite {
     position: fixed;
     bottom: 25px;
@@ -50,7 +53,7 @@ header {
     margin-top: 50px;
 }
 header .name {
-    margin-left: -3vw;
+    margin-left: -2vw;
     width: 90%;
 }
 
@@ -68,30 +71,34 @@ section p {
     max-width: 1000px;
 }
 
-.interviews , .ideas {
+.links section {
     width: 35vw;
     max-width: 450px;
     float: left;
+    /*background-color: blue;*/
 }
 
 .interviews a {
     color: #3FBA34;
 }
 
-.ideas {
+.talks {
     padding-right: 50px;
 }
-.ideas a {
+.talks a {
     color: #DC8A55;
 }
-.interviews ul, .ideas ul {
+.links ul {
     line-height: 200%;
     padding-left: 0;
     list-style: disc;
+    display: block;
+    color: white;
 }
 
-.interviews ul li, .ideas ul li{
+.links ul li {
     margin-bottom: 2em;
+    display: block;
 }
 
 h2 {
@@ -99,7 +106,7 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) {
-    .interviews , .ideas {
+    .links section {
         width: 90vw;
         clear: both;
         padding:
