@@ -109,7 +109,8 @@ h2 {
     .links section {
         width: 90vw;
         clear: both;
-        padding:
+        font-size: 150%;
+        line-height: 170%;
 
     }
 
