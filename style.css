@@ -1,151 +1,115 @@
 html {
+  background-color: #EDEDED;
   background-color: black;
-  color: white;
-  overflow-x: hidden;
+  /*background-image: url("paper.gif");*/
+  color: #9f9f9e;
 }
 
 .darmite {
-  left: 3000px;
-  z-index: -1000;
-  position: fixed;
-  top: 0;
+    position: fixed;
+    bottom: 25px;
+    right: 5vw;
+    width: 12vw;
+    z-index: -1;
+    /*transition: all 0.4s ease-in;*/
 }
 
 .dracula {
-  left: 3000px;
-  z-index: -1000;
-  position: fixed;
-  top: 0;
-
+    position: fixed;
+    bottom: 25px;
+    right: 20vw;
+    width: 12vw;
+    z-index: -1;
+    /*transition: all 0.4s ease-in;*/
 }
+
+
 body  {
-  font-family: "brandon-grotesque",sans-serif;
+  font-family: "circular std","brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 150%;
   letter-spacing: 0.01em;
-  max-width: 1200px;
+  font-size: 22px;
+  padding-bottom: 200px;
 }
 
 body a {
-  color: #7F80FF;
-  text-decoration: none;
-  background-color: transparent;
-  padding: 3px 10px;
-  /*border-bottom: 1px dotted #FFB85A;*/s
-  transition: all 0.3s ease;
-  display: inline-block;
+    color: #E34648;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 body a:hover {
-  color: black;
-  /*padding: 20px;*/
-  background-color: #ffce08;
-  border-bottom: none;
-  transition: all 0.5s ease;
+    color: #5110CD;
+    border-bottom: 2px solid #71CAB4;
+}
+header {
+    position: relative;
+    margin-top: 50px;
+}
+header .name {
+    margin-left: -3vw;
+    width: 90%;
 }
 
-li {
-  margin-bottom: 2em;
-  margin-left: -20px;
-  text-indent: 0;
+section  {
+    margin-top: 75px;
 }
 
-ul {
-  margin-bottom: 100px;
-  margin-left: 0;
-  text-indent: 0;
+section p {
+    margin-top: 25px;
 }
 .wrapper {
-  /*width: 100%;*/
-  padding: 40px 5vw;
-  margin: 0 auto;
+    padding: 0 25px;
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
-header {
-  margin-top: 250px;
-  margin-bottom: 100px;
-}
-.name {
-  width: 100%;
-  max-width: 900px;
+.interviews , .ideas {
+    width: 35vw;
+    max-width: 450px;
+    float: left;
 }
 
-.main-links {
-  clear: both;
-  /*display: block;*/
-  font-size: 3em;
-  line-height: 1.6em;
-  margin-bottom: 5vw;
-  background-color: none;
+.interviews a {
+    color: #3FBA34;
 }
 
-.main-links a {
-  /*padding: 6px 15px;*/
-  padding: 0;
+.ideas {
+    padding-right: 50px;
+}
+.ideas a {
+    color: #DC8A55;
+}
+.interviews ul, .ideas ul {
+    line-height: 200%;
+    padding-left: 0;
+    list-style: disc;
 }
 
-.main-links a:hover {
-  color: #fff;
-  padding: 0;
-  background-color: transparent;
-}
-section {
-  float: left;
-  /*border: 1px solid red;*/
-  margin-right: 50px;
+.interviews ul li, .ideas ul li{
+    margin-bottom: 2em;
 }
 
-section ul {
-  font-size: 1.2em;
-}
-
-section ul li {
-  line-height: 1.6em;
-}
-
-.para {
-  width: 100%;
-  max-width: 1200px;
-  font-size: 2em;
-  line-height: 1.8em;
-  margin-bottom: 5vw;
-}
-
-.para a {
-  padding: 0;
-}
-
-.para a:hover {
-  text-decoration: underline;
-  color: #ffce08;
-  background-color: black;
-  /*display: none;*/
-}
-
-.para .previous {
-  font-size: .6em;
-  line-height: 120%;
-}
 h2 {
-  font-size: 200%;
+    color: white;
 }
 
-
-@media only screen and (min-width: 640px) {
-  .main-links {
-      font-size: 50px;
-  }
-    .para {
-        font-size: 60px
-    }
-
-    .para .previous {
-        font-size: 60px;
-    }
-
-    section, section ul li a {
-        font-size: 50px;
+@media only screen and (max-width: 1000px) {
+    .interviews , .ideas {
+        width: 90vw;
+        clear: both;
+        padding:
 
     }
+
+    .wrapper {
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    /*html {background-color: red;}*/
 }
