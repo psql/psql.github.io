@@ -78,16 +78,18 @@ section p {
     /*background-color: blue;*/
 }
 
-.interviews a {
-    color: #3FBA34;
+.links a {
+    color: #6329DC;
+}
+
+.links a:hover {
+    color: #FDB436;
 }
 
 .talks {
     padding-right: 50px;
 }
-.talks a {
-    color: #DC8A55;
-}
+
 .links ul {
     line-height: 200%;
     padding-left: 0;
