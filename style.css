@@ -1,5 +1,10 @@
 html {
     background-color: black;
+    background-image: url('img/mid.png');
+    background-size: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 5vw center;
     color: white;
     /*height: 100%;*/
 }
@@ -12,11 +17,6 @@ body  {
     line-height: 150%;
     letter-spacing: 0.01em;
     font-size: 22px;
-    background-image: url('img/mid.png');
-    background-size: 40vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 5vw center;
     height: 100%;
     transition: all 0.8s ease;
     padding: 50px 50px 0px 0;
@@ -114,7 +114,7 @@ section ul li {
     margin-top: -10px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
 
     .wrapper {
         background: linear-gradient(to right, rgba(0,0,0,.8) 80%,rgba(0,0,0,0) 100%);
