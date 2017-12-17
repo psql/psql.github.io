@@ -79,8 +79,11 @@ section {
     text-shadow: 1px 1px 10px #000;
 }
 
+section p+p {
+    margin-top: 25px;
+}
 section h1 {
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #555;
