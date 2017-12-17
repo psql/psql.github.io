@@ -36,7 +36,7 @@ body  {
 
 }
 .eyeballBottom {
-    z-index: 100;
+    z-index: 4;
     position: fixed;
     bottom: 40px;
     right: 40px;
