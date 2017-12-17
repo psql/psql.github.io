@@ -63,19 +63,24 @@ header img {
 
 }
 
+.wrapper {
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
 section {
     font-size: 25px;
     margin-top: 50px;
     max-width: 640px;
-    z-index: 9999;
+    z-index: 101;
     position: relative;
     line-height: 50px;
+    text-shadow: 1px 1px 10px #000;
 }
 
 section h1 {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #555;
 }
 section a {
     color: #6d07ff;
@@ -84,4 +89,20 @@ section a {
 
 section a:hover {
     color: #232a32;
+}
+
+section ul li {
+    list-style-type: circle;
+}
+
+.linkList li a {
+    display: inline-block;
+    clear: both;
+}
+
+.linkList li span {
+    display: block;
+    clear: both;
+    font-size: 18px;
+    margin-top: -10px;
 }
