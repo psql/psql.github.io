@@ -20,7 +20,7 @@ body  {
     height: 100%;
     z-index: 10;
     transition: all 0.8s ease;
-    padding: 50px;
+    padding: 50px 50px 50px 0;
 }
 
 .eyeballTop {
@@ -65,9 +65,12 @@ header img {
 
 .wrapper {
     background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    padding-left: 50px;
+    padding-bottom: 100px;
+    height: 100%;
 }
 section {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 50px;
     max-width: 640px;
     z-index: 101;
@@ -103,6 +106,6 @@ section ul li {
 .linkList li span {
     display: block;
     clear: both;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: -10px;
 }
