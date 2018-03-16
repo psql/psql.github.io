@@ -71,8 +71,8 @@ header img {
 
 .wrapper {
     background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 5vw;
+    padding-left: 5vw;
     padding-bottom: 100px;
     height: 100%;
     position: relative;
