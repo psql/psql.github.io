@@ -1,0 +1,18 @@
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "top top"
+    ". stuff";
+}
+
+
+.icon, .hero {
+  grid-area: "top";
+
+}
+
+.stuff {
+  grid-area: stuff;
+  background-color: red;
+}
