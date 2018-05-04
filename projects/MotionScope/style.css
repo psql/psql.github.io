@@ -1,18 +1,56 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: "colfax-web","Colfax",sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 75px;
+  margin-bottom: 25px;
+  line-height: 75px;
+}
+
 #grid {
+  padding: 0 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
   grid-template-areas:
-    "top top"
-    ". stuff";
+    ". icon icon ."
+    "heroText heroText heroText heroText"
+    ". . stuff .";
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.icon img {
+  max-width: 300px;
 }
 
 
-.icon, .hero {
-  grid-area: "top";
+.icon {
+  grid-area: icon;
+  text-align: center;
+}
+.hero {
+  grid-area: heroText;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 35px;
+}
 
+.hero h1 {
+  background: -webkit-linear-gradient(#f50007, #0300f7);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
 .stuff {
   grid-area: stuff;
-  background-color: red;
+  /* background-color: red; */
 }
