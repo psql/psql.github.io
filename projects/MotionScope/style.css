@@ -8,19 +8,19 @@ html {
 
 h1 {
   font-weight: 500;
-  font-size: 75px;
-  margin-bottom: 25px;
-  line-height: 75px;
+  font-size: 7vw;
+  line-height: 150px;
 }
 
 #grid {
+  transition: all 0.5s;
   padding: 0 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 5vw;
   grid-template-areas:
-    ". icon icon ."
-    "heroText heroText heroText heroText"
+    "icon heroText heroText heroText"
+    /* "heroText heroText heroText heroText" */
     ". . stuff .";
   max-width: 1200px;
   margin: 0 auto;
@@ -28,7 +28,7 @@ h1 {
 }
 
 .icon img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 
@@ -38,19 +38,37 @@ h1 {
 }
 .hero {
   grid-area: heroText;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 25px;
-  line-height: 35px;
+  line-height: 125%;
 }
 
 .hero h1 {
-  background: -webkit-linear-gradient(#f50007, #0300f7);
+  background: -webkit-linear-gradient(top, #ff3232 36%,#1500ff 72%);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
+ margin-bottom: 0.5vw;
+
 }
 
 .stuff {
   grid-area: stuff;
   /* background-color: red; */
+}
+
+@media (max-width: 750px) {
+
+#grid {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "icon icon"
+    "heroText heroText";
+  }
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
 }
